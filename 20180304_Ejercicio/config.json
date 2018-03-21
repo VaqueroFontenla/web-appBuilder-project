@@ -1,0 +1,246 @@
+{
+  "theme": {
+    "name": "NewTheme",
+    "styles": [
+      "default",
+      "black",
+      "myStyle"
+    ],
+    "version": "2.7",
+    "sharedTheme": {
+      "useHeader": true,
+      "useLogo": true,
+      "isPortalSupport": true
+    },
+    "customStyles": {
+      "mainBackgroundColor": null
+    }
+  },
+  "portalUrl": "http://propertfy-gis.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "20180304_Ejercicio",
+  "subtitle": "with Web AppBuilder for ArcGIS",
+  "keepAppState": true,
+  "logo": "https://propertfy-gis.maps.arcgis.com/sharing/rest/content/items/a5ca2b7750374159b3ff6d26b284da99/data",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [],
+  "widgetOnScreen": {
+    "panel": {
+      "uri": "themes/NewTheme/panels/SimpleBorderPanel/Panel",
+      "position": {
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 67,
+          "bottom": 30,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_Scalebar_Widget_20",
+        "name": "Scalebar"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "left": 67,
+          "top": 75,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_HomeButton_Widget_21",
+        "name": "HomeButton"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 67,
+          "bottom": 10,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_Coordinate_Widget_22",
+        "name": "Coordinate"
+      },
+      {
+        "uri": "widgets/BasemapGallery/Widget",
+        "position": {
+          "left": 105,
+          "top": 5,
+          "width": 430,
+          "height": 410,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_BasemapGallery_Widget_23",
+        "name": "BasemapGallery"
+      },
+      {
+        "position": {
+          "left": 155,
+          "top": 5,
+          "width": 400,
+          "height": 410,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_24"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "top": 5,
+          "left": 67,
+          "relativeTo": "map"
+        },
+        "version": "2.7",
+        "id": "widgets_ZoomSlider_Widget_25",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "themes/NewTheme/widgets/SidebarController/Widget",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "bottom": 0,
+          "width": 50,
+          "relativeTo": "browser"
+        },
+        "id": "themes_NewTheme_widgets_SidebarController_Widget_26",
+        "name": "SidebarController",
+        "version": "2.7"
+      }
+    ]
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 0,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "4d60411b6a50422ba3de0e1e8294f091",
+    "mapOptions": {},
+    "id": "map",
+    "portalUrl": "http://www.arcgis.com",
+    "mapRefreshInterval": {
+      "useWebMapRefreshInterval": true
+    }
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/NewTheme/panels/SimpleBorderPanel/Panel",
+      "position": {
+        "top": 0,
+        "left": 50,
+        "bottom": 0,
+        "width": 300,
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.7",
+        "id": "widgets_Legend_Widget_18",
+        "name": "Legend",
+        "index": 2
+      },
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.7",
+        "id": "widgets_LayerList_Widget_19",
+        "name": "LayerList",
+        "index": 3
+      },
+      {
+        "name": "20180314_widgetCicloVida",
+        "version": "2.7",
+        "IsController": false,
+        "uri": "widgets/20180314_widgetCicloVida/Widget",
+        "index": 5,
+        "id": "widgets_20180314_widgetCicloVida_Widget_27"
+      },
+      {
+        "name": "20180314_widgetHolaMundo",
+        "version": "2.7",
+        "IsController": false,
+        "uri": "widgets/20180314_widgetHolaMundo/Widget",
+        "index": 6,
+        "id": "widgets_20180314_widgetHolaMundo_Widget_28"
+      },
+      {
+        "name": "20180315_widgetPersonalizado",
+        "version": "2.7",
+        "IsController": false,
+        "uri": "widgets/20180315_widgetPersonalizado/Widget",
+        "index": 7,
+        "id": "widgets_20180315_widgetPersonalizado_Widget_29"
+      },
+      {
+        "name": "widgetA",
+        "version": "2.7",
+        "IsController": false,
+        "uri": "widgets/widgetA/Widget",
+        "index": 8,
+        "id": "widgets_widgetA_Widget_30"
+      },
+      {
+        "name": "widgetB",
+        "version": "2.7",
+        "IsController": false,
+        "uri": "widgets/widgetB/Widget",
+        "index": 9,
+        "id": "widgets_widgetB_Widget_31"
+      },
+      {
+        "name": "WidgetBootstrap",
+        "version": "2.7",
+        "IsController": false,
+        "uri": "widgets/WidgetBootstrap/Widget",
+        "index": 10,
+        "id": "widgets_WidgetBootstrap_Widget_32"
+      },
+      {
+        "name": "WidgetFiltro",
+        "version": "2.7",
+        "IsController": false,
+        "uri": "widgets/WidgetFiltro/Widget",
+        "index": 11,
+        "id": "widgets_WidgetFiltro_Widget_33"
+      }
+    ],
+    "groups": []
+  },
+  "loadingPage": {
+    "backgroundColor": "#508dca",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/predefined_loading_1.gif",
+      "width": 58,
+      "height": 29
+    }
+  },
+  "wabVersion": "2.7",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "dataSource": {
+    "dataSources": {},
+    "settings": {}
+  }
+}
