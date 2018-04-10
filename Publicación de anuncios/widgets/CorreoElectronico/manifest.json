@@ -1,0 +1,24 @@
+{
+  "name": "CorreoElectronico",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "2.7",
+  "wabVersion": "2.7",
+  "author": "Grupo 5 Master GIS Curso 2017-2018 Esri España",
+  "description": "Este widget permite enviar un correo electrónico al destinatario y con el contenido que se desee",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+		"inPanel":true,
+		"hasLocale": false,
+		"hasStyle":true,
+		"hasConfig":false,
+		"hasUIFile":true,
+		"hasSettingPage":true,
+		"hasSettingUIFile":true,
+		"hasSettingLocale":true,
+		"hasSettingStyle":true,
+		"IsController":false
+  }
+}

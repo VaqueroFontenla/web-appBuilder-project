@@ -1,0 +1,86 @@
+{
+  "name": "PropertFyTheme",
+  "platform": "HTML",
+  "panels": [
+    {
+      "name": "FoldablePanel",
+      "description": "This is foldable panel"
+    }
+  ],
+  "styles": [
+    {
+      "name": "default",
+      "description": "this is default style",
+      "styleColor": "#586679"
+    },
+    {
+      "name": "black",
+      "description": "this is black style",
+      "styleColor": "#000000"
+    },
+    {
+      "name": "green",
+      "description": "this is green style",
+      "styleColor": "#2aaa8a"
+    },
+    {
+      "name": "cyan",
+      "description": "this is cyan style",
+      "styleColor": "#267030"
+    },
+    {
+      "name": "red",
+      "description": "this is red style",
+      "styleColor": "#c93048"
+    },
+    {
+      "name": "purple",
+      "description": "this is purple style",
+      "styleColor": "#aa6fad"
+    },
+    {
+      "name": "blue",
+      "description": "this is blue style",
+      "styleColor": "#005fa2"
+    },
+    {
+      "name": "propertfy",
+      "description": "this is propertfy style",
+      "styleColor": "#173e43"
+    }
+  ],
+  "layouts": [
+    {
+      "name": "default",
+      "description": "this is default layout"
+    },
+    {
+      "name": "layout1",
+      "description": "this is layout1"
+    },
+    {
+      "name": "layout2",
+      "description": "this is layout2"
+    },
+    {
+      "name": "propertfy",
+      "description": "this is propertfy layout"
+    },
+    {
+      "name": "layout4",
+      "description": "this is layout4"
+    }
+  ],
+  "widgets": [
+    {
+      "name": "HeaderController",
+      "description": "this is theme widget controller"
+    }
+  ],
+  "version": "2.7",
+  "wabVersion": "2.7",
+  "author": "Grupo 5 Master GIS curso 2017-2018 Esri España",
+  "description": "Tema desarrollado para las aplicaciones de PropertFy",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+}

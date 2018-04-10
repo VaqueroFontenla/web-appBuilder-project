@@ -1,0 +1,36 @@
+<div class="widgetContainer">
+  <div class="bloqueArriba">
+    <div class="imgContainer">
+      <img class="imgPropertFy" src="${folderUrl}images/icon+name+claim_fondotransp.png" alt="">
+    </div>
+    <div class="info">
+      <p>Con esta herramienta podrás avisar a clientes la información ha sido verificado y su anuncio publicado</p>
+      <hr>
+    </div>
+  </div>
+  <div class="bloqueAbajo">
+    <form class="correo" action="mailto:" method="post">
+      <div>
+        <label for="nombre">Destinatario:</label>
+        <br>
+        <input type="text" id="nombreContanier" name="nombre" value="Querido anunciante">
+      </div>
+      <div>
+        <label for="correo">Correo Electrónico</label>
+        <br>
+        <input type="email" id="destinatarioContainer" name="mail" value="propertfy.mastergis@gmail.com">
+      </div>
+      <div>
+        <label for="contenido">Contenido:</label>
+        <br>
+        <textarea id="contenidoContainer" name="contenido" rows="8" cols="80">Su anuncio ha sido publicado de forma satisfactoria. Muchas gracias por confiar en nosotros"</textarea>
+        <br>
+      </div>
+      <div class="cntBtnEnviar">
+        <button type="submit" class="btnEnviar" id="btnEnviarCorreo">Enviar correo</button>
+      </div>
+
+    </form>
+
+  </div>
+</div>

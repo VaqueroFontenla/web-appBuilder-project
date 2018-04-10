@@ -1,0 +1,108 @@
+.widgetContainer {
+  background-color: #fae596;
+}
+
+.jimu-widget-frame.jimu-container {
+  padding: 0px;
+  background-color: #fae596;
+  border: solid #173e43;
+  border-width: 10px;
+}
+
+.bloqueArriba {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.imgContainer {
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 150px;
+  height: 50px;
+  background: #ffffff;
+  position: relative;
+  border: solid #173e43;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.imgPropertFy {
+  position: relative;
+  width: 150px;
+  height: 50px;
+  z-index: 3px;
+}
+
+p, label {
+  margin-top: 10px;
+  padding: 10px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 20;
+  font-family: Verdana;
+}
+
+#destinatarioContainer, #nombreContanier {
+  margin: 10px;
+  padding: 10px;
+  padding-left: 5px;
+  border: solid #173e43;
+  width: 300px;
+  height: 25px;
+  background-color: #dddfd4;
+  text-align: left;
+  border-radius: 5px;
+}
+
+#contenidoContainer {
+  margin: 10px;
+  padding: 10px;
+  padding-left: 5px;
+  border: solid #173e43;
+  width: 300px;
+  height: 200px;
+  background-color: #dddfd4;
+  text-align: left;
+  text-align-last: left;
+  border-radius: 5px;
+  font-size: 100%;
+}
+
+/*#btnCorreo {
+  text-align: center;
+  background-color: #dddfd4;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+  font-size: 20;
+  color: #173e43;
+  border: 3px solid #173e43;
+  margin: 10px;
+}*/
+
+.cntBtnEnviar {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  width: 300px;
+  height: 30px;
+  margin-top: 5px;
+  padding: 5px;
+  padding-right: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #173e43;
+}
+
+.btnEnviar {
+  border-width: thin;
+  border-radius: 5px;
+  border-color: #dddfd4;
+  background-color: transparent;
+  color: #dddfd4;
+  font-size: 16px;
+  cursor: pointer;
+}

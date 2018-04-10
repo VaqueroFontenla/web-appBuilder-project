@@ -1,0 +1,82 @@
+.jimu-main-background {
+  background: linear-gradient(#3fb0ac, #173e43);
+  height: 8%;
+}
+
+.jimu-widget-header-controller .jimu-drop-menu {
+  background-color: #173e43;
+}
+
+.jimu-header-more-popup .icon-node {
+  background-color: #173e43;
+}
+
+.jimu-header-more-popup .close-inner {
+  background-color: #173e43;
+}
+
+.jimu-on-screen-widget-panel>.jimu-panel-title, .jimu-foldable-panel>.jimu-panel-title, .jimu-title-panel>.title {
+  background-color: #173e43;
+}
+
+.esriPopup .titlePane {
+  background-color: #173e43;
+}
+
+.jimu-widget-placeholder {
+  width: 50px;
+  height: 30px;
+}
+
+.jimu-widget-onscreen-icon {
+  width: 50px;
+  height: 30px;
+  background-color: white;
+}
+
+.jimu-widget-onscreen-icon img {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+}
+
+.jimu-widget-homebutton {
+  background-color: #173e43;
+}
+
+.jimu-widget-mylocation {
+  background-color: #173e43;
+}
+
+.jimu-widget-zoomslider .zoom {
+  background-color: #ffffff;
+  color: black;
+  width: 35px;
+  height: 40px;
+  text-align: center;
+  border: 1px;
+}
+
+.jimu-corner-top {
+  background-color: #ffffff;
+  color: black;
+  width: 35px;
+  height: 40px;
+  text-align: center;
+}
+
+.jimu-corner-bottom {
+  background-color: #ffffff;
+  color: black;
+  width: 35px;
+  height: 40px;
+  text-align: center;
+}
+
+.esriMobileNavigationBar {
+  background-color: #173e43
+}
+
+.mainSection {
+  background-color: #dddfd4
+}

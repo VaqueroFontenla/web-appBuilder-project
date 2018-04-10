@@ -1,0 +1,26 @@
+{
+  "name": "AttributeTable_PropertFy",
+  "label": "Attribute Table",
+  "platform": "HTML",
+  "version": "2.7",
+  "wabVersion": "2.7",
+  "author": "Grupo 5 Master GIS Curso 2017-2018 Esri España",
+  "description": "Este widget proporciona información sobre las capas operacionales de nuestro mapa",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0",
+  "properties": {
+    "inPanel": false,
+    "hasUIFile": false,
+    "hasConfig": true,
+    "keepConfigAfterMapSwitched": false,
+    "supportMultiInstance": false,
+    "hasVersionManager": true
+  },
+  "featureActions": [{
+    "name": "ShowRelatedRecords",
+    "uri": "actions/ShowRelatedRecordsFeatureAction"
+  }, {
+    "name": "ViewInTable",
+    "uri": "actions/ViewInAttributeTableFeatureAction"
+  }]
+}
